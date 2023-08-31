@@ -58,7 +58,9 @@
             android:layout_weight="1"
             android:padding="20dp"
             android:text="Entrar"
-            android:textAllCaps="true" />
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_marginRight="5dp"/>
 
         <Button
             android:id="@+id/btnSair"
@@ -66,8 +68,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="20dp"
+            android:textSize="20sp"
             android:text="Sair"
-            android:textAllCaps="true" />
+            android:textAllCaps="true"
+            android:layout_marginLeft="5dp"
+            />
 
     </LinearLayout>
 </LinearLayout>
