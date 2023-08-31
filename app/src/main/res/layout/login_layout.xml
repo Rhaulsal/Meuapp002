@@ -14,7 +14,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="100dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/foto" />
+        android:src="@drawable/navio" />
 
     <EditText
         android:id="@+id/edtEmail"

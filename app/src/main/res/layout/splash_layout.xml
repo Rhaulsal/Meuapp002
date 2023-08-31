@@ -14,7 +14,7 @@
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:scaleType="centerCrop"
-        android:src="@drawable/foto" />
+        android:src="@drawable/navio" />
 
     <ProgressBar
         android:id="@+id/pgbFoto"
