@@ -7,20 +7,78 @@
     android:orientation="vertical"
     tools:context=".MenuPrincipalActivity2">
 
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="180dp"
-        android:layout_height="200dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:checkable="true"
-        android:id="@+id/cadAeroModelos" >
+    <LinearLayout
 
-       <ImageView
-           android:layout_width="match_parent"
-           android:layout_height="150dp"
-           android:src="@drawable/navio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-    </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/carAeroModelos"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/navio" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10sp"
+                    android:text="Aeromodelos"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardGaleria"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/naviodois" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10sp"
+                    android:text="Galeria"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
 
 </LinearLayout>
